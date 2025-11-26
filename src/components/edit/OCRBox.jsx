@@ -1,5 +1,5 @@
 // src/components/edit/OCRBox.jsx
-import React from "react";
+
 
 function OCRBox({ bbox, displayScale }) {
   if (!bbox || bbox.length < 4) return null;
