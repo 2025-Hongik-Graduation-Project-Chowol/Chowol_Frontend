@@ -1,5 +1,4 @@
 // src/components/edit/ManualDragBox.jsx
-import React from "react";
 
 function ManualDragBox({ dragBox, displayScale }) {
   if (!dragBox) return null;
