@@ -1,5 +1,5 @@
 // src/components/edit/ZoomControl.jsx
-import React from "react";
+
 
 function ZoomControl({ zoomScale, setZoomScale }) {
   return (
