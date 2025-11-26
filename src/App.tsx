@@ -1,4 +1,4 @@
-import React from "react";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import TranslationPage from "./pages/TranslationPage";
 import UploadPage from "./pages/UploadPage";
