@@ -1,5 +1,5 @@
 // src/components/edit/TextList.jsx
-import React from "react";
+
 import "../../pages/EditPage.css"; // edit-text-* 클래스 재사용
 
 function TextList({ items }) {
