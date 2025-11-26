@@ -1,0 +1,68 @@
+/* selector (아이콘) selector 가로 배치 */
+.lang-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* selector 버튼 박스 */
+.lang-box {
+  position: relative;
+}
+
+/* selector 버튼 */
+.lang-btn {
+  width: 130px;
+  height: 44px;
+  border: 1.3px solid #000;
+  border-radius: 10.5px;
+  background: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+  align-items: center;
+}
+
+/* 아래로 펼쳐지는 언어 목록 */
+.lang-dropdown {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 130px;
+  background: #fff;
+  border: 1.3px solid #000;
+  border-radius: 10.5px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.lang-option {
+  background: #fff;
+  border: none;
+  padding: 10px 12px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.lang-option:hover {
+  background: #f2f2f2;
+}
+
+/* 중앙 아이콘 */
+.lang-swap {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.lang-swap.disabled {
+  pointer-events: none;   /* 클릭 불가능 */
+  opacity: 0.5;           /* "비활성화" 시각적 표시(원하면 조절 가능) */
+  cursor: default;
+}

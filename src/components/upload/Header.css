@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 110.00px;
+  padding: 0 24px;
+
+  /* 🔽 헤더 아래 연한 회색 줄 */
+  border-bottom: 1px solid #eeeeee;
+
+  background: var(--sds-color-background-default-default);
+}
+
+
+.header-logo {
+  width: 70.6px;    /* 82 * 0.8 */
+  height: 70.3848px; /* 80.481 * 0.8 */
+  aspect-ratio: 82 / 80.481;
+  background: url("../../assets/translation/2222-3.png") center / cover no-repeat;
+}

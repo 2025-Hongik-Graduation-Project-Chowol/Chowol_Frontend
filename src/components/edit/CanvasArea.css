@@ -1,0 +1,14 @@
+/* 예: src/components/edit/CanvasArea.css 에 두고 import 해도 되고,
+   전역 css에 넣어도 됨 */
+
+.canvas-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden; /* 회색 박스 밖으로 안 나가게 */
+  cursor: default;
+}
+
+.canvas-container.canvas-add-mode {
+  cursor: crosshair; /* 바운딩 박스 추가 모드 */
+}

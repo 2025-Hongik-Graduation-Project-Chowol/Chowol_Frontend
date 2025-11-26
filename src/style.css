@@ -1,0 +1,161 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 전체 배경 */
+body {
+  background: #f5f5f5; /* 필요하면 #ffffff로 바꿔도 됨 */
+}
+
+/* 앱 전체를 가운데 두는 래퍼 */
+.app-root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* 가운데로 */
+}
+
+/* ChatGPT처럼 중앙에 고정폭 레이아웃 */
+.app-shell {
+  width: 100%;
+  max-width: 1600px;      /* 여기 숫자 = 앱 최대 폭 (필요하면 1400, 1600 등으로) */
+  margin: 0 auto;
+  background: #ffffff;    /* 안쪽은 흰색 */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.03); /* 살짝 그림자 느낌, 싫으면 지워도 됨 */
+}
+
+/* ==== 로컬 폰트 등록 ==== */
+/* ====== CJK + 로컬 폰트 등록 ====== */
+
+/* 한국어 계열 */
+@font-face {
+  font-family: "NanumGothicLocal";
+  src: url("./assets/fonts/NanumGothic.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NanumGothicLightLocal";
+  src: url("./assets/fonts/NanumGothicLight.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceHanSerifKExtraLight";
+  src: url("./assets/fonts/SourceHanSerifK-ExtraLight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GuknipClassicL";
+  src: url("./assets/fonts/국립박물관문화재단클래식L.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yangjin";
+  src: url("./assets/fonts/양진체v0.93.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KoPubBatangLight";
+  src: url("./assets/fonts/KoPubWorld Batang Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* 일본어 계열 */
+@font-face {
+  font-family: "IPAexMincho";
+  src: url("./assets/fonts/ipaexm.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceHanSerifJP";
+  src: url("./assets/fonts/SourceHanSerifJP-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 중국어 계열 */
+@font-face {
+  font-family: "SourceHanSerifSC";
+  src: url("./assets/fonts/SourceHanSerifSC-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceHanSerifTC";
+  src: url("./assets/fonts/SourceHanSerifTC-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* 범용 CJK + 영문용 등 */
+@font-face {
+  font-family: "SourceHanSerif";
+  src: url("./assets/fonts/SourceHanSerif-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DanjoBold";
+  src: url("./assets/fonts/Danjo-bold-Regular.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HeirofLight";
+  src: url("./assets/fonts/HeirofLightRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kyobo2020pdy";
+  src: url("./assets/fonts/KyoboHandwriting2020pdy.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kyobo2021sjy";
+  src: url("./assets/fonts/KyoboHandwriting2021sjy.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kyobo2022khn";
+  src: url("./assets/fonts/KyoboHandwriting2022khn.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kyobo2024psw";
+  src: url("./assets/fonts/KyoboHandwriting2024psw.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+
+/* ==== 여기까지가 폰트 등록 ==== */

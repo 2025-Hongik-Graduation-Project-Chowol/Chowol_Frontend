@@ -1,0 +1,37 @@
+.tabs-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* 탭 컨테이너 */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+/* 공통 탭 스타일 */
+.tab {
+  padding: 8px 20px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  font-size: 26px;
+  font-weight: 500;
+
+  border-bottom: 2px solid transparent; /* 기본은 밑줄 없음 */
+}
+
+/* 비활성 */
+.tab-inactive {
+  color: #b0b0b0;
+}
+
+/* 활성: 밑줄 + 진한 색 */
+.tab-active {
+  color: #000000;
+  border-bottom-color: #000000; /* 🔥 이 탭 아래만 밑줄 생김 */
+}

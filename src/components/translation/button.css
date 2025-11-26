@@ -1,0 +1,44 @@
+.custom-btn {
+  /* 레이아웃 */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 크기: 텍스트 기준으로 자연스럽게 늘어나게 */
+  padding: 8px 20px;
+  min-width: 90px;          /* 너무 작아지지 않도록만 */
+  box-sizing: border-box;
+
+  /* 모양: 캡슐형 검정 버튼 */
+  background: #333333;
+  border-radius: 8px;      /* 완전 알약 모양 */
+  border: none;
+
+  /* 텍스트 스타일 */
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+
+  /* 기타 */
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease, opacity 0.1s ease;
+}
+
+/* primary 변형 (혹시 variant 쓰고 있으면) */
+.custom-btn.primary {
+  background: #333333;
+}
+
+/* hover 시 살짝 뜨는 느낌 */
+.custom-btn:hover {
+  box-shadow: 0 0.1px 0px rgba(0, 0, 0, 0.25);
+  transform: translateY(-1px);
+}
+
+/* 누를 때 살짝 눌리는 느낌 */
+.custom-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 0.1px 0px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,100 @@
+/* 회색 캔버스 기준으로 floating */
+.toolbar-root {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+/* 펼쳐진 상태의 흰색 캡슐 */
+.toolbar-pill {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 999px;
+  padding: 6px 14px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.18);
+  gap: 14px;
+}
+
+/* AI 추천 버튼 */
+.ai-button {
+  background: #6c4ad9;
+  color: #ffffff;
+  border: none;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* 툴 리스트 */
+.tool-list {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+/* 공통 툴 버튼 */
+.tool-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  transition: background-color 0.08s ease;
+}
+
+/* 🔹 Toolbar 폰트 선택 셀렉터 최소 크기 */
+.toolbar-font-select {
+  width: 38px;         /* 딱 Aa + ▼ 정도 크기 */
+  padding: 0;
+  font-size: 14px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.toolbar-font-select:disabled {
+  opacity: 0.4;
+}
+
+/* ▼ 기본 화살표가 너무 커서 줄임 */
+.toolbar-font-select::-ms-expand {
+  display: none;
+}
+
+.toolbar-font-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='12' viewBox='0 0 24 24' width='12' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 4px center;
+  background-size: 10px;
+  padding-right: 14px;
+}
+
+/* 눌렀을 때만 살짝 회색 */
+.tool-btn:active {
+  background-color: #eeeeee;
+}
+
+/* 캐럿 모양 버튼 */
+.caret-btn {
+  font-size: 16px;
+}
+
+/* 접힌 상태: 아래가 꽉 찬 작은 타원 + v */
+.toolbar-handle {
+  border: none;
+  background: #ffffff;
+  border-radius: 999px;        /* ⭐ 완전 타원 */
+  padding: 4px 14px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  font-size: 14px;
+}
