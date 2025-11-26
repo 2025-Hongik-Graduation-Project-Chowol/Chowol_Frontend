@@ -1,6 +1,6 @@
 
 // LoadingPage.js
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import Header from "../components/translation/Header";
 import Footer from "../components/upload/Footer";

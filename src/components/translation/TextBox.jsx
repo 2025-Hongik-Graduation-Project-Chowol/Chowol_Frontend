@@ -1,5 +1,5 @@
 // src/components/translation/TextBox.jsx
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useEditor } from "./EditorContext";
 
 export const TextBox = ({ textObj }) => {

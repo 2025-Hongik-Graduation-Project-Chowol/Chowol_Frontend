@@ -1,4 +1,4 @@
-import React from "react";
+
 import xLogo from "../../assets/upload/X-Logo.svg";
 import instagram from "../../assets/upload/Logo-Instagram.svg";
 import youtube from "../../assets/upload/Logo-YouTube.svg";

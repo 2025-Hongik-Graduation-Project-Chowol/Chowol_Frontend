@@ -1,5 +1,5 @@
 // src/components/translation/Toolbar.jsx
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Toolbar.css";
 import { useEditor } from "./EditorContext";
 

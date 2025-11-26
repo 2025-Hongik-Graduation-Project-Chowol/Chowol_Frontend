@@ -1,6 +1,6 @@
 
 // src/pages/InpaintPage.jsx
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Header from "../components/translation/Header";
 import Tabs from "../components/translation/Tabs";
 import Toggle from "../components/inpainting/Toggle";

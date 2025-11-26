@@ -1,5 +1,5 @@
 // src/pages/TranslationPage.jsx
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import Header from "../components/translation/Header";
 import Tabs from "../components/translation/Tabs";

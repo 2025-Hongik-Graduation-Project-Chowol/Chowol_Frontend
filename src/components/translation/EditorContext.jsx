@@ -1,5 +1,5 @@
 // src/components/translation/EditorContext.jsx
-import React, { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
 const EditorContext = createContext(null);
 

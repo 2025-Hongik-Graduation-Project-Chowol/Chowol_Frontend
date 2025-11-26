@@ -1,5 +1,5 @@
 // src/components/translation/TextPanel.jsx
-import React from "react";
+
 
 function TextPanel({ blocks, selectedId, onSelect, onChangeText }) {
   return (

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useEditor } from "./EditorContext";
 import { translateTextAPI } from "../../services/api.translate";
 

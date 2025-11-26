@@ -1,5 +1,5 @@
 // UploadPage.js
-import React, { useState, useCallback } from "react";
+import { useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../components/translation/Header";
 import Footer from "../components/upload/Footer";

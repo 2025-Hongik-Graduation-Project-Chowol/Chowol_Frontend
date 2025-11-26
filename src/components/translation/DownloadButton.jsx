@@ -1,5 +1,5 @@
 // src/components/translation/DownloadButton.jsx
-import React from "react";
+
 import Button from "./Button";
 import { useEditor } from "./EditorContext";
 

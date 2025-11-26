@@ -1,5 +1,5 @@
 // src/components/translation/Tabs.jsx
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Tabs.css";
 
 function Tabs() {
